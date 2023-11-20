@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float base;
+    float altezza;
+    float perimetro;
+    float area;
+
+    cout<<"Inserisci il valore della base del triangolo: ";
+    cin>>base;
+    cout<<"\n\n";
+
+    cout<<"Inserisci il valore dell'altezza del triangolo: ";
+    cin>>altezza;
+    cout<<"\n\n";
+
+    perimetro=base*3;
+    area=(base*altezza)/2;
+
+    cout<<"Il valore del perimetro del triangolo in esame e': "<<perimetro<<"\n\n";
+    cout<<"Il valore dell'area del triangolo in esame e': "<<area<<"\n\n";
+    return 0;
+}
